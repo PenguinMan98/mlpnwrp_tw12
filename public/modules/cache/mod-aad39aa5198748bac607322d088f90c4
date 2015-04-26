@@ -1,0 +1,106 @@
+
+
+			<div id="module_17" class="box box-characters_recent module">
+			<h3 class="box-title clearfix" >
+							<span class="moduletitle">Newest Characters</span>
+						<!--[if IE]><br class="clear" style="height: 1px !important" /><![endif]--></h3>
+			<div id="mod-characters_recentleft3" style="display: block;" class="clearfix box-data">
+
+<ul>
+			<li>
+			<a class="linkmodule" href="/chat/character/view.php?c=Starbuck">
+				Starbuck
+			</a><br>
+			By - <a class="linkmodule" href="/tiki-index.php?page=User:Starbuck">
+                Starbuck
+            </a>
+		</li>
+			<li>
+			<a class="linkmodule" href="/chat/character/view.php?c=Wacky_Bits">
+				Wacky_Bits
+			</a><br>
+			By - <a class="linkmodule" href="/tiki-index.php?page=User:DetainedOgar">
+                DetainedOgar
+            </a>
+		</li>
+			<li>
+			<a class="linkmodule" href="/chat/character/view.php?c=Stupid_test">
+				Stupid_test
+			</a><br>
+			By - <a class="linkmodule" href="/tiki-index.php?page=User:AyameEx">
+                AyameEx
+            </a>
+		</li>
+			<li>
+			<a class="linkmodule" href="/chat/character/view.php?c=Ezki">
+				Ezki
+			</a><br>
+			By - <a class="linkmodule" href="/tiki-index.php?page=User:Hakase">
+                Hakase
+            </a>
+		</li>
+			<li>
+			<a class="linkmodule" href="/chat/character/view.php?c=Aria_Blaze">
+				Aria_Blaze
+			</a><br>
+			By - <a class="linkmodule" href="/tiki-index.php?page=User:Tek%20Croon">
+                Tek Croon
+            </a>
+		</li>
+			<li>
+			<a class="linkmodule" href="/chat/character/view.php?c=Sonata_Dusk">
+				Sonata_Dusk
+			</a><br>
+			By - <a class="linkmodule" href="/tiki-index.php?page=User:Carrie%20Shadow">
+                Carrie Shadow
+            </a>
+		</li>
+			<li>
+			<a class="linkmodule" href="/chat/character/view.php?c=Weston">
+				Weston
+			</a><br>
+			By - <a class="linkmodule" href="/tiki-index.php?page=User:axelthemoogle">
+                axelthemoogle
+            </a>
+		</li>
+			<li>
+			<a class="linkmodule" href="/chat/character/view.php?c=April">
+				April
+			</a><br>
+			By - <a class="linkmodule" href="/tiki-index.php?page=User:Dafina">
+                Dafina
+            </a>
+		</li>
+			<li>
+			<a class="linkmodule" href="/chat/character/view.php?c=SavoirFaire">
+				SavoirFaire
+			</a><br>
+			By - <a class="linkmodule" href="/tiki-index.php?page=User:SilverBobbin">
+                SilverBobbin
+            </a>
+		</li>
+			<li>
+			<a class="linkmodule" href="/chat/character/view.php?c=Slugger">
+				Slugger
+			</a><br>
+			By - <a class="linkmodule" href="/tiki-index.php?page=User:SilverBobbin">
+                SilverBobbin
+            </a>
+		</li>
+			<li>
+			<a class="linkmodule" href="/chat/character/view.php?c=Fineese">
+				Fineese
+			</a><br>
+			By - <a class="linkmodule" href="/tiki-index.php?page=User:SilverBobbin">
+                SilverBobbin
+            </a>
+		</li>
+	</ul>
+
+
+		</div>
+		<div class="box-footer">
+
+		</div>
+	</div>
+	

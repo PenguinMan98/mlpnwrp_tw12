@@ -1,0 +1,1 @@
+a:10:{s:4:"time";a:1:{s:6:"GM_Joe";i:1369465712;}s:4:"away";a:1:{s:6:"GM_Joe";b:0;}s:4:"gndr";a:0:{}s:4:"stat";a:0:{}s:4:"room";a:0:{}s:4:"user";a:0:{}s:4:"pass";a:0:{}s:4:"data";a:0:{}s:4:"kick";a:0:{}s:4:"mute";a:0:{}}
