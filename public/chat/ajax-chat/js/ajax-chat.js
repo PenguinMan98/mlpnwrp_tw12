@@ -862,7 +862,7 @@ function chat_msgs_usr(handle, color, sidebar)
 	  retString += '<img src="'+chat_path+'style/gender/'+chat_usrs[user][1]+'.png" alt="" style="margin-right: 2px;" />';
   }*/
   // always add the name and the javascript that fires the switch to private messaging
-  retString += '<a style="color: '+color+'" href="#" onClick="chat_priv_switch(\''+handle+'\', true); return false;">' + handle + '</a>';
+  retString += '<a class="name_link" style="color: '+color+'" href="#" onClick="chat_priv_switch(\''+handle+'\', true); return false;">' + handle + '</a>';
 
   // if the user is away, add this
   /*if(sidebar && typeof chat_usrs[user] != 'undefined' && typeof chat_usrs[user][3] != 'undefined' && !chat_usrs[user][3]){
@@ -957,6 +957,11 @@ function chat_out_usrs()
   otherRoom.html(users); // dump them into other.
   otherRoom.css('display', (users ? 'block' : 'none'));  // show it if it needs to be shown.
   // no return value.
+  var nameLinks = $('#users .name_link');
+  for(var i=0; i<nameLinks.length; i++){
+	  console.log('attempting to shorten the links', nameLinks);
+	  shorten_element($(nameLinks[i]), 160);
+  }
 };
 
 function show_pm(){
@@ -1278,3 +1283,17 @@ function printTmpRands(){
 	}
 	console.log(string + ");");
 }
+
+function shorten_element( e, width ){
+    var rect = e[0].getBoundingClientRect();
+    var fontSize = 0;
+    var letterSpacing = 0;
+    while(rect.width > width){
+        fontSize = parseInt( e.css('font-size') );
+        letterSpacing = parseFloat( e.css('letter-spacing') );
+        e.css('font-size', (fontSize - 1)+'px');
+        e.css('letter-spacing', (letterSpacing - .5)+'px');
+        rect = e[0].getBoundingClientRect();
+    }
+}
+

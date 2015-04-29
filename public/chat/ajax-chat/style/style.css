@@ -25,6 +25,10 @@ a:visited{
 a:hover, a:active{
 	color: #ddd;
 }
+/* DEFAULT STYLES APPLIED BEFORE MEDIA QUERIES */
+#send{
+    width: 70%;
+}
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
@@ -45,12 +49,18 @@ a:hover, a:active{
 	body{
 		width: 600px;
 	}
+	#send{
+	    width: 50%;
+	}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	body{
 		width: 600px;
+	}
+	#send{
+	    width: 50%;
 	}
 }
 
@@ -59,6 +69,10 @@ a:hover, a:active{
 	body{
 		width: 450px;
 	}
+	#send{
+	    width: 50%;
+	}
+	
 }
 
 /* main layout */
@@ -146,8 +160,7 @@ a:hover, a:active{
     background: black;
     color: white;
     padding: 3px 5px;
-    font-size: 24px;
-    width: 50%;
+    font-size: 16px;
 }
 #submit_send{
     margin-left: 10px;

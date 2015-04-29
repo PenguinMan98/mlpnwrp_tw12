@@ -353,6 +353,8 @@ foreach ($chatRoomList as $chatRoom) {
 		/*$(window).unload( logmeout() );*/
 
 		/*$('#exit_pm').on('click',function(){chat_priv_switch('.',true);});*/
+		var e_characterName = $('#character_name');
+		shorten_element(e_characterName, 125);
 	});
 
 	function toggleAutofocus( state ){
